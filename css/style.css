@@ -1,0 +1,84 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+/* common */
+
+:root{
+    --gree: #21B573;
+    --black: #000000;
+    --red: #FD511A;
+    --white: #ffffff;
+
+    --pop: "Poppins", sans-serif;
+    --rob: "Roboto", sans-serif;
+}
+body{
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+/* header strat */
+header{
+   background-color: 
+   #F0FFF0;
+   padding: 10px 0px;
+}
+.menu ul li a{
+    padding: 0px 50px 0px 0px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: var(--black) !important;
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+    color: var(--red) !important;
+}
+.c_btn{
+    Padding:
+    12px 28px 12px 28px;
+}
+.cm_btn{
+    background-color: var(--gree);
+    border-radius: 33px;
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    color: var(--white);
+    transition: 0.3s;
+}
+.cm_btn:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+.m_h1 h1{
+    text-transform: capitalize;
+}
+.m_b form{
+    width: 450px;
+    margin-left: 10px;
+}
+.m_b form input{
+   width: 100%;
+   font-family: var(--pop);
+   font-size: 16px;
+   font-weight: 400;
+   color: var(--black);
+}
+.m_b form input:focus{
+    outline: 0;
+}
+.input{
+    margin: 3px 0px 5px;
+}
+.md_btn{
+    margin: 13px 0px 0px 10px;
+    padding: 10px 30px;
+    border: none;
+    transition: 0.3s;
+}
+.md_btn:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+/* header end */
